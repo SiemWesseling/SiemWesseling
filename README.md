@@ -1,14 +1,14 @@
-<h1 style="text-align:center;">
+<h1 align = "center">
     Hiya! I'm Siem Wesseling, nice to meet you!
 </h1>
 
-<h2 style="text-align:center;">
+<h2 align = "center">
     An aspiring game developer, producer and designer from the Netherlands.
 </h2>
 
 <!--(Insert link to my portfolio here, site does not exist 
 yet)-->
-<h3 style="text-align:center;"> 
+<h3 align = "center"> 
     <a href="url"> My portfolio</a>
 </h3>
 
@@ -22,7 +22,7 @@ yet)-->
     -->
 </p>
 
-<h3 style="text-align:center;">
+<h3 align = "center">
     Socials
 </h3>
 
@@ -32,7 +32,7 @@ yet)-->
   </a>
 </p>
 
-<h3 style="text-align:center;">
+<h3 align = "center">
     Languages and tools
 </h3>
 
