@@ -43,7 +43,7 @@
 </p>
 
 <p align = "center">
-    ![Coding habits](https://github.com/SiemWesseling/SiemWesseling/blob/main/metrics.habits.svg)
+    ![Coding habits](https://raw.githubusercontent.com/SiemWesseling/SiemWesseling/main/metrics.habits.svg)
 </p>
 
 <!-- (Insert Most used languages here:) -->
