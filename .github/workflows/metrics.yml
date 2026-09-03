@@ -1,10 +1,13 @@
 name: Metrics
 on:
   schedule:
-    - cron: "0 0 * * *"   # once a day
-  workflow_dispatch:        # lets you trigger it manually too
+    - cron: "0 0 * * *"
+  workflow_dispatch:
   push:
     branches: ["main"]
+
+permissions:
+  contents: write
 
 jobs:
   github-metrics:
@@ -15,10 +18,10 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           filename: metrics.habits.svg
-          base: ""                      # skip the default profile card, render only this plugin
+          base: ""
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: yes
-          plugin_habits_charts_type: graph   # "classic" (div-based) or "graph" (smoother svg)
-          plugin_habits_days: 14             # how many days back to look
-          config_timezone: Europe/Amsterdam  # so your active-hours chart isn't in UTC
+          plugin_habits_charts_type: graph
+          plugin_habits_days: 14
+          config_timezone: Europe/Amsterdam
