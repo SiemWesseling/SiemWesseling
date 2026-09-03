@@ -6,15 +6,15 @@
     An aspiring game developer, producer and designer from the Netherlands.
 </h2>
 
-<!--(Insert link to my portfolio here, site does not exist 
-yet)-->
+<!--[(https://siemwesseling.github.io/)]-->
 <h3 align = "center"> 
     <a href="url"> My portfolio</a>
 </h3>
 
 <p align = "center">
-    - 🔭 I’m currently working on making a portfolio website using ThreeJS. <br>
+    - 🔭 I’m currently working on making a portfolio website using ThreeJS and React. <br>
     - 🌱 I’m currently learning about C++ in Unreal Engine <br>
+    - I'm currently building a game in Godot <br>
     - 📫 How to reach me: siemwesseling@gmail.com <br>
     <!-- 
     - 📄 You can find my resume right here! [insert portfolio website] <br>
